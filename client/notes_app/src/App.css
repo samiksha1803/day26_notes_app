@@ -1,0 +1,140 @@
+/* General Body */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f3e5f5; /* light lavender */
+  margin: 0;
+  padding: 0;
+  color: #4a148c; /* deep purple text */
+}
+
+/* h1 */
+h1 {
+  color: #7b1fa2; /* vibrant lavender purple */
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* h2 */
+h2 {
+  color: #6a1b9a;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* NavBar */
+.nav {
+  background-color: #ce93d8; /* medium lavender */
+  padding: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+border-radius:12px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav a {
+  text-decoration: none;
+  color: #4a148c;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ab47bc;
+}
+
+/* Container */
+div {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Note Card */
+.note-card {
+  background-color: #ede7f6; /* soft lavender background */
+  border: 1px solid #ce93d8;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.note-card h3 {
+  color: #8e24aa;
+  margin-top: 0;
+}
+
+.note-card p {
+  margin: 0.5rem 0;
+}
+
+/* Links and Buttons in Note Cards */
+.note-card a,
+.note-card button {
+  margin-right: 10px;
+  color: white;
+  background-color: #ba68c8;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.note-card a:hover,
+.note-card button:hover {
+  background-color: #9c27b0;
+}
+
+/* Form Inputs */
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ce93d8;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: #f8f5fc;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Prevent textarea resizing */
+form textarea {
+  resize: none;
+}
+
+/* Submit Button */
+form button {
+  background-color: #ab47bc;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+form button:hover {
+  background-color: #8e24aa;
+}
+
+/* Back to Home Button */
+button {
+  background-color: #ab47bc;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+  background-color: #8e24aa;
+}
